@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1FACA91D1FCF1F00DB4B6E /* Hritik.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD1FACA71D1FCF1F00DB4B6E /* Hritik.cpp */; };
 		CDC2C8D51D1C4E910013E506 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC2C8D41D1C4E910013E506 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD1FACA71D1FCF1F00DB4B6E /* Hritik.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Hritik.cpp; path = ../StarShade/Hritik.cpp; sourceTree = "<group>"; };
+		CD1FACA81D1FCF1F00DB4B6E /* Hritik.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Hritik.hpp; path = ../StarShade/Hritik.hpp; sourceTree = "<group>"; };
 		CDC2C8D11D1C4E910013E506 /* IITR_PSO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IITR_PSO; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC2C8D41D1C4E910013E506 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +44,8 @@
 		CDC2C8C81D1C4E910013E506 = {
 			isa = PBXGroup;
 			children = (
+				CD1FACA71D1FCF1F00DB4B6E /* Hritik.cpp */,
+				CD1FACA81D1FCF1F00DB4B6E /* Hritik.hpp */,
 				CDC2C8D31D1C4E910013E506 /* IITR_PSO */,
 				CDC2C8D21D1C4E910013E506 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1FACA91D1FCF1F00DB4B6E /* Hritik.cpp in Sources */,
 				CDC2C8D51D1C4E910013E506 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 				CDC2C8DA1D1C4E910013E506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
